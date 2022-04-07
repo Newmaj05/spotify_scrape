@@ -122,7 +122,7 @@ def track_identify(ids):
     for i in range(len(ids)):
       #time.sleep(.5)
       track = getTrackFeatures(ids[i])
-      print("Details for {} : {}".format(i,track))
+      print("Details for id: {} - {}".format(i,track))
       tracks.append(track)
     return tracks
 
